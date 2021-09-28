@@ -1,0 +1,32 @@
+name: bhb
+version: '${project.version}'
+main: com.scally.bottomlesshotbars.BottomlessHotbars
+api-version: 1.17
+website: https://github.com/spscally/bottomless-hotbars
+
+commands:
+
+# TODO: consolidate everything under main command
+  # also write proper help message
+  # TODO: permissions?
+  bhb:
+    description: bottomless-hotbars main command
+    usage: /<command>
+
+#  bhb-get:
+#    description: gets the hotbar with name <name>
+#    usage: /<command> <name>
+#
+#  bhb-set:
+#    description: creates or updates a hotbar with name <name> from the user's current item bar
+#    usage: /<command> <name>
+#
+#  bhb-list:
+#    description: lists all hotbars
+#    usage: /<command>
+#
+#  bhb-delete:
+#    description: deletes a hotbar with name <name>
+#    usage: /<command> <name>
+
+    # TODO: rename?
